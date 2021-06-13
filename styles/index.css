@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+}
+
+body {
+  height: 90%;
+  width: 70%;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: lightseagreen;
+}
+
+header {
+  height: 25%;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  margin: 1.5em;
+  background-color: lightblue;
+}
+
+h2 {
+  margin: auto;
+  display: inline-block;
+}
+
+h1 {
+  margin: auto;
+}
+
+form {
+  margin: auto;
+  width: 70%;
+  /* height: fit-content; */
+  text-align: center;
+  /* padding: 40px; */
+  border: 2px solid black;
+  border-radius: 15px;
+  display: inline-flex;
+}
+
+form input {
+  padding: 5px;
+  /* margin: 0; */
+  width: 80%;
+  /* background-color: white; */
+  border: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  outline: none;
+}
+
+form button {
+  width: 20%;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 0;
+}
+
+main {
+  height: 70%;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em;
+  margin-top: 0em;
+  background-color: lightblue;
+}
+
+#output {
+  padding: 15px;
+  display: none;
+  width: 80%;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: auto;
+  background-color: white;
+  /* height: 60%; */
+}
+
+#icon {
+  float: right;
+  width: 15%;
+}
+
+ul li {
+  list-style-position: inside;
+}
+
+span {
+  font-weight: bold;
+}
+
+#temp-c,
+#feels-like-c {
+  display: inline;
+}
+
+#right {
+  display: inline;
+  float: right;
+}
+
+#left {
+  display: inline;
+  float: left;
+}
+
+#top-box {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+div {
+  margin: auto;
+}
+
+img {
+  display: inline-block;
+}

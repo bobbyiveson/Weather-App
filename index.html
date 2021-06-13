@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles/index.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Weather App</h1>
+      <form id="location-search-form">
+        <input
+          id="location-search-input"
+          type="search"
+          placeholder="Search for a place"
+        />
+        <button id="location-search-button">search</button>
+      </form>
+    </header>
+    <main>
+      <section id="output">
+        <div id="top-box">
+          <div class="left">
+            <h2 id="name"></h2>
+            <span id="region"></span>,
+            <span id="country"></span>
+            <p id="time"></p>
+          </div>
+          <div class="right">
+            <img id="icon" src="" alt="" />
+          </div>
+        </div>
+        <hr />
+        <div id="left">
+          <p id="temp-c"></p>
+          |
+          <p id="feels-like-c"></p>
+          <p id="text"></p>
+          <p id="cloud"></p>
+        </div>
+        <div id="right">
+          <ul>
+            <span> Wind: </span>
+            <li id="wind-mph"></li>
+            <li id="wind-direction"></li>
+            <li id="gust-mph"></li>
+          </ul>
+          <p id="humidity"></p>
+          <p id="uv"></p>
+        </div>
+      </section>
+    </main>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
